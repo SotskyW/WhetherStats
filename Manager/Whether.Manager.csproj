@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="12.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Connectors\Whether.Feed.Connector.csproj" />
+    <ProjectReference Include="..\Whether.Common\Whether.Common.csproj" />
+  </ItemGroup>
+
+</Project>

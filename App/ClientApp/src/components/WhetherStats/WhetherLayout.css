@@ -1,0 +1,73 @@
+﻿
+
+.temperature {
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.cold {
+    background-color: #00c0ff45 !important;
+}
+
+.hot {
+    background-color: #ffd70047 !important;
+}
+
+p {
+    margin-bottom: 0px !important;
+}
+
+.container {
+    max-width: 2000px !important;
+}
+
+.week-end {
+   color:red;
+   font-weight:bold;
+}
+
+.day-title {
+    text-align:center;
+}
+td.day {
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    cursor:pointer;
+}
+
+span.week-day-title {
+    position: absolute; 
+    top: -3px;
+    right: 5px; 
+    font-size: 13px;
+}
+
+td.year {
+    vertical-align: middle;
+}
+.today {
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table > tbody > tr:last-child {
+    border-top: 3px solid gray;
+}
+.react-datepicker-wrapper input {
+width: 120px;
+}
+
+.whether-popover {
+    padding: 10px;
+    white-space: nowrap;
+    
+    width: 600px;
+}
+    .whether-popover div {
+        text-align: center;
+    }
+
+.table-col-striped tbody td:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
